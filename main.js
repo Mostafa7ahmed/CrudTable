@@ -56,7 +56,7 @@ let addStudent = function () {
                 `;
                 list.appendChild(row);
                 selctedRow = null;
-                showAlert("Add Student success `   ", "success");
+                showAlert("Add Student success    ", "success");
                 saveData();
             }
             else {
