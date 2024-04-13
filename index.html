@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body style="color: #fff ; background-color: #1d2630;">
+
+    <div class="container  mt-5">
+        <div class="text-center">
+            <h1 class="display-5 mb-auto fz-5 fw-bolder font text-light"> CURD Opration</h1>
+        </div>
+        <div class="main row justify-content-center">
+            <form action="" id="student-form" class="row justify-content-center mb-5" autocomplete="off">
+                <div class="col-10 mb-3 col-md-8 ">
+                    <label for="fristName" class="form-label">Frist Name</label>
+                    <input type="text" class="form-control" id="fristName" placeholder="Enter  Frist Name ">
+                </div>
+                <div class="col-10 mb-3  col-md-8">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Last  Name ">
+                </div>
+                <div class="col-10 mb-3  col-md-8">
+                    <label for="rollNo" class="form-label">Roll No</label>
+                    <input type="text" class="form-control" id="rollNo" placeholder="Enter Roll No  ">
+                </div>
+                <div class="col-10  col-md-8 ">
+                    <input type="submit" class="btn btn-success add-btn" value="submit">
+                </div>
+                <div class="ResTable">
+                    <table class="table table-dark w-aut ">
+                        <thead>
+                            <tr>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name </th>
+                                <th scope="col">Roll No</th>
+                                <th scope="col">Actions </th>
+
+                            </tr>
+                        </thead>
+                        <tbody id="student-list">
+                            <!-- <tr>
+                                <th>Mostafa</th>
+                                <td>hamed</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" class="btn btn-warning btn-sm me-3 edit">Etiding</a>
+                                    <a href="#" class="btn btn-danger btn-sm  delete">Deleted</a>
+                                </td>
+                            </tr> -->
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+    <!-- Delete Conformet -->
+    <!-- Button trigger modal -->
+
+
+
+
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js "></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
